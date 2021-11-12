@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="icon" href="/leaf.svg" sizes="50x50" /> -->
+    <link rel="icon" href="/mapleleaf.png" sizes="300x300" />
+    <link rel="apple-touch-icon" href="/mapleleaf.png" />
+    <meta name="msapplication-TileImage" content="mapleleaf" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/owl/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/hamburger.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chinar Home</title>
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="row no-gutters align-items-center">
+            <div class="col-sm-6 col-lg-4 col-12 ">
+                <div class="left-container">
+                    <button id="hamburgerMenu" class="hamburger hamburger--slider" type="button">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <a href="#" class="logo">CHINAR HOME</a>
+                </div>
+            </div>
+            <div class="col-12 justify-content-center col-lg-4 order-1 order-lg-0">
+                <div class="center-container">
+                    <form class="search-bar">
+                        <input type="text" class="search-line" name="s" id="search-line" autocomplete="off" placeholder="search...">
+                    </form>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4 text-center">
+                <div class="right-container">
+                    <a href="#" class="login-link inner" onclick="$('.login-popup').toggleClass('show')">
+                        <span class="iconify" data-icon="mdi-light:account"></span>
+                        <span>Login</span>
+                    </a>
+                    <a href="#" class="basket inner">
+                        <span class="iconify" data-icon="mdi-light:briefcase"></span>
+                        <span>Basket</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="sidebar">
+            <nav class="side-nav">
+                <ul class="side-menu">
+                    <li> <a href="#" class="navigation-bar">New In</a></li>
+                    <li> <a href="#" class="navigation-bar">Campains</a></li>
+                    <li> <a href="/bedroom.html" class="navigation-bar">BEDROOM</a></li>
+                    <li> <a href="#" class="navigation-bar">Clothing</a></li>
+                    <li> <a href="#" class="navigation-bar">Kitchen</a></li>
+                    <li> <a href="#" class="navigation-bar">Dining</a></li>
+                    <li> <a href="#" class="navigation-bar">Candles & Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="home-page">
+        <section class="section position-relative">
+            <div class="container-fluid m-0 p-0">
+
+                <div class="owl-carousel owl-theme home-carousel">
+                    <div class="slide"> <img src="./media/img/christmas.jpg" autoplay muted /> </div>
+                    <div class="slide"> <video src="./media/video/miss_maggie.mp4" autoplay muted></video> </div>
+                    <div class="slide"> <video src="./media/video/campaign_2.mp4" autoplay muted></video> </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="popup login-popup">
+        <div class="login">
+            <form id="login" method="get" action="">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" autocomplete="off" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" autocomplete="off" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <br><br>
+                <input type="button" class="btn btn-primary" name="log" id="log" value="Log In Here">
+                <br><br>
+                <input type="checkbox" id="check">
+                <span>Remember me</span>
+                <br><br>
+
+            </form>
+        </div>
+    </div>
+    <!-- <button onclick="$('.login-popup').removeClass('show');" class="btn btn-sm btn-danger">x</button> </div> -->
+    <footer>
+        <div class="subscribe-form">
+            <label for="email" class="email-label"> Join our newsletter - Enter your email address</label>
+            <input type="text" class="email-input" name="email" id="email">
+        </div>
+
+        <div class="social-links">
+
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-spotify"></i></a>
+            <a href=""><i class="fab fa-pinterest-p"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/owl/owl.carousel.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="assets/js.js "></script>
+</body>
+
+
+</html>

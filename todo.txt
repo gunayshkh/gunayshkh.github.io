@@ -1,0 +1,11 @@
+resposive turn search bar into icon - none
+
+
+
+
+//mini documentation
+click on the burger menu -> bedroom - > in the list of products -> tap on an image to look for details of a product
+
+**local storage used through showing open vs closed sidebar
+
+**jquery plugin used on products pics
